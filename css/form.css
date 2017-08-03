@@ -1,0 +1,12 @@
+h1, p {
+    color: blue;
+}
+label {
+    color: #005acb;
+}
+body {
+    background-color: #21ffd5;
+}
+textarea, #username, #password {
+    background-color: lightgray;
+}
