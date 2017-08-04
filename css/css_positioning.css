@@ -12,8 +12,8 @@
 }
 .box>img{
     position:absolute;
-    bottom: 45px;
-    left: 45px;
+    bottom: 55px;
+    left: 55px;
 }
 #red-box{
     background-color: red;
@@ -33,4 +33,16 @@
 }
 #violet-box{
     background-color: violet;
+}
+
+h1{
+    margin: 0px
+}
+body{
+    font-size: 15px;
+}
+div:last-child{
+    position:fixed;
+    top: 0px;
+    right: 0px;
 }
