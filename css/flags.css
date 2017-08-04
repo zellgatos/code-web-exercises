@@ -1,0 +1,98 @@
+.flag{
+    border: solid black 1px;
+    height: 100px;
+    width: 200px;
+    background-color: #fff;
+    position:relative;
+}
+body{
+    background-color: gray;
+}
+
+.japan{
+    height: 60px;
+    width: 60px;
+    border-radius: 80px;
+    background-color: red;
+    position:absolute;
+    left: 78px;
+    top: 30px;
+}
+.blue{
+    height: 33px;
+    width: 202px;
+    background-color: blue;
+    position:absolute;
+    top:145px;
+}
+.red{
+    height: 33px;
+    width: 202px;
+    background-color: red;
+    position:absolute;
+    top:178px;
+}
+#plus{
+    background-color: red;
+}
+.cross {
+    height: 20px;
+    width: 75px;
+    position: absolute;
+    background-color: #fff;
+    top: 250px;
+    left: 72px;
+
+}
+.rotate {
+    height: 72px;
+    width: 20px;
+    position: absolute;
+    background-color: #fff;
+    top: 225px;
+    left: 100px;
+}
+.yellow{
+    height: 33px;
+    width: 202px;
+    background-color: yellow;
+    position:absolute;
+    top:350px;
+}
+.dark_green{
+    height: 33px;
+    width: 202px;
+    background-color: #008000;
+    position:absolute;
+    top:383px;
+}
+.green{
+    height: 102px;
+    width: 66px;
+    position: absolute;
+    background-color: #00ae00;
+    top: 416px;
+}
+.gold{
+    height: 102px;
+    width: 66px;
+    position: absolute;
+    background-color: #ffa500;
+    top: 416px;
+    left: 144px;
+}
+.lat{
+    height: 15px;
+    width: 202px;
+    background-color: #ffffff;
+    position:absolute;
+    top: 562px;
+}
+.lon{
+    height: 102px;
+    width: 12px;
+    background-color: #ffffff;
+    position:absolute;
+    top: 519px;
+    left: 58px;
+}
