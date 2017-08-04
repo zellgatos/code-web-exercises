@@ -10,9 +10,6 @@
     float: left;
     position:relative;
 }
-.box:nth-child(5){
-    clear:left
-}
 .box>img{
     position:absolute;
     bottom: 55px;
@@ -26,12 +23,14 @@
 }
 #yellow-box{
     background-color: yellow;
+    clear: left;
 }
 #green-box{
     background-color: green;
 }
 #blue-box{
     background-color: blue;
+    clear:left;
 }
 #violet-box{
     background-color: violet;
