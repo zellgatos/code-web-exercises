@@ -17,6 +17,10 @@
     margin-bottom: 2%;
 }
 
+.offset-one-eighth{
+    margin: 12.5%;
+}
+
 .one-half {
     width: 50%;
 }
