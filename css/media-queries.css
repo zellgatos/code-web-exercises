@@ -48,14 +48,12 @@
 
     .main {
         float: left;
-        width: 60%;
         margin-bottom:30%;
 
     }
 
     .sub-section {
         float: right;
-        width: 35%;
         font-style: italic;
     }
 
@@ -138,13 +136,11 @@ li{
     }
     .main {
         clear:both;
-        width: 80%;
 
     }
 
     .sub-section {
         float: left;
-        width: 80%;
         font-style: italic;
         margin-bottom: 150px;
 

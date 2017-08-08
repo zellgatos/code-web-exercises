@@ -11,8 +11,6 @@
 
 
 .column {
-    border: 1px solid purple;
-    background-color: #696ad1;
     float: left;
     padding: 10px;
     box-sizing: border-box;
@@ -33,4 +31,7 @@
 }
 .one-sixth{
     width: 16.67%;
+}
+.one-whole{
+    width: 100%;
 }
