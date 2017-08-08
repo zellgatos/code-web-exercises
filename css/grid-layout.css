@@ -1,0 +1,33 @@
+.container{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.row {
+    width: 100%;
+    overflow: auto;
+}
+
+
+.column {
+    border: 1px solid purple;
+    background-color: #696ad1;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+}
+
+.one-half {
+    width: 50%;
+}
+.one-third {
+    width: 33.33%;
+}
+.one-fourth {
+    width: 25%;
+}
+.one-eighth {
+    width: 12.5%;
+}

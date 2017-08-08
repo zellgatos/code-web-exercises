@@ -1,0 +1,156 @@
+/*classes-alert-info*/
+/*hidden-on-mobile*/
+/*nav-links*/
+/*header-img*/
+/*main*/
+/*sub-section*/
+/*id-main*/
+/*social-media-links*/
+
+/* This code is for a regular web-page */
+@media screen and (min-width:768px) {
+    h1 {
+        float: left;
+        margin-left:2%;
+        font-size:50px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        padding-left: 10px;
+        float:right;
+
+    }
+
+    .nav-links {
+        float: right;
+        top: 80px;
+
+    }
+
+    .header-img img {
+        clear: both;
+        width: 96%;
+        height: auto;
+        display: block;
+        margin: auto;
+
+    }
+
+    body {
+        width: 100%;
+
+    }
+
+    .main {
+        float: left;
+        width: 60%;
+        margin-bottom:30%;
+
+    }
+
+    .sub-section {
+        float: right;
+        width: 35%;
+        font-style: italic;
+    }
+
+    @media screen and (min-width: 768px) {
+        .alert-info {
+            display: none;
+        }
+    }
+
+    footer {
+        clear:left;
+        margin-bottom:10%;
+    }
+}
+
+/*This code will size the webpage for mobile devices*/
+@media screen and (max-width:768px){
+
+    .hidden-on-mobile>a{
+        text-decoration: none;
+        display:block;
+        border: 1px solid gray;
+        line-height: 40px;
+        background-color: #CCFFFF;
+        text-align:center;
+        clear:both;
+        margin-right:15px;
+        color: black;
+        font-size: 16px;
+
+
+
+
+
+    }
+h1{
+    text-align: center;
+    margin-right:15px;
+    font-size:50px;
+    margin-top: 4px;
+
+
+
+
+}
+ul{
+    list-style: none;
+    vertical-align: center;
+
+
+
+}
+.nav-links{
+    padding-left: 0;
+}
+li{
+    border:1px solid gray;
+    background-color:#CCCCCC;
+    line-height:40px;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-right:15px;
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+    body {
+        width: 100%;
+        /*max-width: 360px;*/
+        /*margin: 0 auto;*/
+
+}
+    .header-img img {
+        clear: both;
+        width: 97%;
+        height: auto;
+        display: block;
+
+    }
+    .main {
+        clear:both;
+        width: 80%;
+
+    }
+
+    .sub-section {
+        float: left;
+        width: 80%;
+        font-style: italic;
+        margin-bottom: 150px;
+
+    }
+    footer > p{
+        clear:both;
+
+    }
+}
