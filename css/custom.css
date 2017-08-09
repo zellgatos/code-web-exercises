@@ -1,0 +1,31 @@
+.jumbotron {
+    text-align: center;
+    background-image: url("/code-web-exercises/img/pizza.png")
+}
+.jumbotron>h1{
+    background-color: inherit ;
+    opacity: .6;
+}
+.list-group-item, option {
+    background-color: #D9EDF7;
+    color:#4F86A1;
+}
+.panel-footer>button{
+    color: #fff;
+    background: #337AB7;
+    font-size: 90%;
+}
+.panel-body>.panel-default>.panel-heading{
+    background-color: #F5F5F5;
+    color: black;
+}
+.panel .panel-heading{
+    background-color: #D9EDF7;
+    color: #4F86A1;
+}
+@media screen and (max-width:768px){
+    .jumbotron{
+        display: none;
+        visibility: hidden;
+    }
+}
