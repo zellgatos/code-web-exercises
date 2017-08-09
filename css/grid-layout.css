@@ -39,3 +39,17 @@
 .one-whole{
     width: 100%;
 }
+.two-thirds{
+    width: 66.67%;
+}
+@media screen and (max-width:768px){
+    .one-eighth,
+    .one-fourth,
+    .one-third ,
+    .one-half,
+    .two-thirds,
+    .container {
+        width: 100%;
+    }
+
+}
