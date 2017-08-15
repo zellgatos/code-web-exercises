@@ -23,7 +23,7 @@ if (color === 'red'){
         console.log("i don't know anything about that color")
 }
 
-(color === favorite) ? console.log( color + " is my favorite color") : console.log(color + " is not my favorite color")
+(color === favorite) ? console.log( color + " is my favorite color") : console.log(color + " is not my favorite color");
 
 
 
