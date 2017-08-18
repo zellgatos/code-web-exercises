@@ -60,6 +60,7 @@ isOdd(random);
  *  > calculateTip(0.20, 20) // returns 4
  */
 
+
 var billTotal = prompt("What is the total of the bill?");
 var tipPercent = prompt("How much do you want to tip?");
 
