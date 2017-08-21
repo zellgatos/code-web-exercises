@@ -5,10 +5,10 @@
     var planetsArray = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"];
 
     // TODO: Convert planetsString to an array, save it to planetsArray.
-    var planetsAsString = planetsString.split(",");
+    var planetsAsString = planetsString.split("|");
     console.log(planetsAsString);
 
-    var planetsAsArray = planetsArray.join(",");
+    var planetsAsArray = planetsArray.join("<br>");
     console.log(planetsAsArray);
 
     // TODO: Create a string with <br> tags between each planet. console.log() your results.
