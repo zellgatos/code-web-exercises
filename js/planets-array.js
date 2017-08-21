@@ -54,7 +54,7 @@
     logPlanets();
 
     console.log("Sorting the planets array.");
-    // TODO: Read the console.log() statement above. Write code to perform the step it describes.
+    // TODO: Read the console.log() statement above. Write code to perform the step it describe.
     planets.sort();
     logPlanets();
 })();
