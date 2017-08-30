@@ -1,9 +1,9 @@
 (function(){
     "use strict";
-    var address = "codeup";
+    var address = "";
     var codeup = { lat: 29.426791, lng: -98.489602 };
     var mapOptions = {
-      zoom: 15,
+      zoom: 10,
       mapTypeId: "roadmap",
       center: codeup
     };
