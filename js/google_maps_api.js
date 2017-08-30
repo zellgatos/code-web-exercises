@@ -1,9 +1,9 @@
 (function(){
     "use strict";
-    var address = "";
+    var address = "Grand Buffet, Seguin";
     var codeup = { lat: 29.426791, lng: -98.489602 };
     var mapOptions = {
-      zoom: 10,
+      zoom: 15,
       mapTypeId: "roadmap",
       center: codeup
     };
@@ -24,7 +24,7 @@
 
     var map = new google.maps.Map(document.getElementById("map"), mapOptions);
     var marker = new google.maps.Marker({
-        position: codeup,
+        position: address,
         map: map
     })
 })();
