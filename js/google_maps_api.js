@@ -27,4 +27,8 @@
         position: address,
         map: map
     })
+    var infowindow = new google.maps.InfoWindow({
+        content: "<a href='#'>Changing</a> Grand Buffet"
+    });
+    infowindow.open(map, marker);
 })();
