@@ -1,3 +1,1 @@
-var $codeup = $('.codeup');
-
-$codeup.css('border', '1px solid red');
+$('li').css('font-size','20px');
