@@ -1,8 +1,18 @@
-$('li').css('font-size','20px');
 
-$("h1, p, li").css('background-color','yellow');
+var h1 = $('h1');
+
+h1.click(function(){
+    $(this).css('background-color','purple');
+});
 
 
+$('p').dblclick(function(){
+    $(this).css('font-size','18px')
+});
 
-var h1 = $('h1').html();
-alert(h1);
+$('li').hover(
+    function(){
+        $(this).css('background-color','red')},
+    function(){
+        $(this).css('background-color','#FFF')
+});
