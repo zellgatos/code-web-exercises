@@ -1,5 +1,3 @@
-var h1 = $('#head').html();
+var $codeup = $('.codeup');
 
-var list = $('#list').html();
-
-alert(h1);
+$codeup.css('border', '1px solid red');
