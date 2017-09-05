@@ -29,4 +29,19 @@
         $(this).parent().children().first().css("color", "blue")
         ;
     }
+    $(".close").click(function(){
+        $(this).parent().hide();
+    });
+
+    var facts = $('.facts');
+
+    facts.hide();
+    facts.prev().click(function(){
+        $(this).next().slideToggle();
+    });
+
+    setTimeout(function() {
+        $('#fade').fadein();
+    }, 8000);
+
 })();
